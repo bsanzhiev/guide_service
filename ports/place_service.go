@@ -11,5 +11,5 @@ type PlaceService interface {
 
 	DeletePlace(id string) error
 
-	GetAllPlace() ([]domain.Place, error)
+	GetAllPlaces() ([]domain.Place, error)
 }
